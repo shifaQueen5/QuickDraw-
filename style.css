@@ -1,0 +1,23 @@
+body{
+    background-image: url("https://wallpaperaccess.com/full/84260.jpg");
+    color: white;
+}
+.btn-warning:hover{
+    background-color: green;
+}
+h3{
+    font-size: 25px !important;
+}
+canvas{
+    animation-name: anime1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes anime1{
+    from{
+        box-shadow: 1px 1px 500px purple;
+    }
+    to{
+        box-shadow: 1px 1px 500px pink;
+    }
+}
