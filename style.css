@@ -1,23 +1,31 @@
 body{
-    background-image: url("https://wallpaperaccess.com/full/84260.jpg");
+    background-color: rgb(143, 52, 235);
+}
+p{
+    font-size: 20px;
     color: white;
 }
-.btn-warning:hover{
-    background-color: green;
+h1{
+    text-align: center;
+    background-color: rgb(198, 148, 247);
+    color:black;
+    padding: 10px;
+    font-size: 25px;
+    width: 100%;
+    margin-top: 0px;
+    top: 0;
 }
-h3{
-    font-size: 25px !important;
+#show_sketch{
+    float: right;
 }
-canvas{
-    animation-name: anime1;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
+
+#score{
+    float: left;
+    margin-left: 25px;
+    font-weight: bold;
 }
-@keyframes anime1{
-    from{
-        box-shadow: 1px 1px 500px purple;
-    }
-    to{
-        box-shadow: 1px 1px 500px pink;
-    }
+#timer{
+    float: right;
+    margin-right: 90px;
+    font-weight: bold;
 }
